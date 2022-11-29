@@ -1,0 +1,47 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+.top{
+  height:50px;
+  width:100%;
+  background-color: red;
+}
+
+.menu-bar{
+  height:500px;
+  width:100%;
+  background-color:orange;
+}
+
+.main{
+  width:960px;
+  height:1400px;
+  display:flex;
+  justify-content:center;
+  margin:0 auto;
+}
+
+.main-center{
+  width:500px;
+  background-color:lime;
+}
+
+.sub1{
+  width:230px;
+  background-color:#CCFF99;
+}
+
+.sub2{
+  width:230px;
+  background-color:#CCFF99;
+}
+
+
+.bottom{
+  width:100%;
+  height:100px;
+  background-color:#3333CC;
+}
