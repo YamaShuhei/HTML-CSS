@@ -1,0 +1,25 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.fab{
+  font-size:32px;
+}
+
+.position{
+  width:600px;
+  height:300px;
+  margin:0 auto;
+}
+
+.icon-box{
+  display: inline-block;
+  border:3px solid black;
+  border-radius: 5px;
+  padding:3px;
+  position:absolute;
+  top:100px;
+  right:40px;
+}
