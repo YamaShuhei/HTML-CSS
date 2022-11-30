@@ -28,9 +28,6 @@ header{
   right:22px;
 }
 
-.social i:nth-child(-n + 2){
-  font-size:32px;
-}
 
 header .heading{ /*header内のheadingクラスにのみ反映される*/
   font-size:32px;
@@ -157,7 +154,7 @@ main{
 }
 
 .common-heading{
-  border-bottom:8px solid #f7f7f7;
+  border-bottom:6px solid #f7f7f7;
   text-align:center;
   line-height:0.6;
 }
@@ -232,3 +229,109 @@ footer {
 .footer-text{
   color:#fff;
 }
+
+@media screen and (max-width: 425px) {
+  main {
+    display:block;
+    width:100%;
+    margin:0 auto; /*中央揃え*/
+  }
+
+  .social{
+  top:25px;
+  right:0;
+}
+
+.social i{
+  margin-left:10px;
+}
+
+.main-visual-content {
+  width: 100%;
+  background-color:rgba(0,0,0, 0.5); /*背景を半透明に*/
+}
+
+.blog {
+  width:100%;
+}
+
+.blog-item{
+  width:100%;
+  display: inline-block;
+  text-align: center;
+}
+
+.blog-box{
+  padding:20px;
+}
+
+.blog-image{
+  margin:0 auto;
+}
+
+.blog-text{
+  width:100%;
+  padding:0;
+  padding-left:4px;
+}
+
+.blog-text h3{
+  font-size:13px;
+}
+
+.pagination{
+  padding-bottom:50px;
+  border-bottom:1px solid #f7f7f7;
+  margin-bottom: 30px;
+}
+
+.sidebar{
+  width:100%;
+}
+
+.sidebar div{
+  padding-left: 6%;
+}
+
+.common-heading{
+  display: inline-block;
+  width:100%;
+  border-bottom:8px solid #f7f7f7;
+  text-align:center;
+  line-height:0.6;
+}
+
+.instagram-box:nth-child(odd){
+  margin:0 10px 10px 10px;
+}
+
+.instagram .sidebar-contents {
+    justify-content: space-evenly;
+
+}
+
+/*すべての画面サイズで適用される設定*/
+/*.social i{*/
+/*  color:black;*/
+/*}*/
+
+/*タブレット横置きサイズ(1024px)以下の際に適用される設定*/
+/*@media screen and (max-width:1024px){*/
+/*  .social i {*/
+/*    color:green;*/
+/*  }*/
+/*}*/
+
+/*タブレット縦置きサイズ(768px)以下の際に適用される設定*/
+/*@media screen and (max-width:768px){*/
+/*  .social i {*/
+/*    color:red;*/
+/*  }*/
+/*}*/
+
+/*スマートフォンサイズ(425px)以下の際に適用される設定*/
+/*@media screen and (max-width:425px){*/
+/*  .social i {*/
+/*    color:blue;*/
+/*  }*/
+/*}*/
