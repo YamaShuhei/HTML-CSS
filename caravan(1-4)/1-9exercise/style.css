@@ -12,34 +12,35 @@ header{
 main{
   width:960px;
   display:flex;
+  justify-content:center;
   margin:50px auto;
 
 }
 
 h3{
-  margin:5px 0;
+  margin:15px 0 5px 0;
 }
 
-.flow{
-  color:#fff;
-}
 
 .step-box{
   width:300px;
-  background-color:#EEEEEE;
   position:relative;
-  margin-right:30px;
+  background-color:#EEEEEE;
+  padding:10px;
 }
 
-.step{
-  display:inline-block;
+.step-box:nth-child(2){
+  margin:0 30px;
+}
+
+.flow{
   background-color:#FF9A4B;
   position:absolute;
+  top:0;
+  left:0;
+  color:#fff;
 }
 
-.step-text{
-  margin:0 10px 10px 10px;
-}
 
 .step-text p{
   font-size:13px;
@@ -50,7 +51,6 @@ h3{
   background-size:cover;
   background-position:bottom;
   height:150px;
-  margin:10px;
 }
 
 .step2-img{
@@ -58,7 +58,6 @@ h3{
   background-size:cover;
   background-position:bottom;
   height:150px;
-  margin:10px;
 }
 
 .step3-img{
@@ -66,7 +65,6 @@ h3{
   background-size:cover;
   background-position:bottom;
   height:150px;
-  margin:10px;
 }
 
 
@@ -75,4 +73,27 @@ h3{
 footer{
   height:50px;
   background-color:#AAAAAA;
+}
+
+
+@media screen and (max-width: 768px){
+
+  main{
+    width:100%;
+    display:block;
+  }
+
+  .step-box{
+    width:90%;
+    margin:0 auto;
+  }
+
+  .step-box:nth-child(2){
+    margin:20px auto;
+  }
+
+
+
+
+
 }
